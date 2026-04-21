@@ -184,6 +184,8 @@
   #include "boards/citoh_cx6000_map.h"
 #elif defined(BOARD_MY_MACHINE)
   #include "boards/my_machine_map.h"
+#elif defined(BOARD_SLB_LITE)
+  #include "boards/slblite_map.h"
 #elif defined(BOARD_GENERIC_4AXIS)
   #include "boards/generic_map_4axis.h"
 #elif defined(BOARD_GENERIC_8AXIS)
